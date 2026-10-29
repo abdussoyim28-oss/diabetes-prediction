@@ -58,4 +58,4 @@ This project is intended for educational and research purposes. Its predictions 
 
 ## Author
 
-Add your name here.
+Abdus Soyim
