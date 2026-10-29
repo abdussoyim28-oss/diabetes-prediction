@@ -1,93 +1,61 @@
-# diabetes-prediction
-ML model to predict diabetes
+# Diabetes Prediction System
 
-# 🩺 Diabetes Prediction using Machine Learning
+## Overview
 
-## 📌 Project Overview
+This project is a Python-based machine learning application designed to predict the likelihood of diabetes using input health measurements.
 
-This project aims to predict whether a patient is likely to have diabetes based on medical attributes using Machine Learning techniques. The model helps in early detection and risk assessment.
+It includes a Jupyter Notebook for experimentation, a dataset, a trained machine learning model, and a Python web application.
 
----
+## Project Features
 
-## 🚀 Features
+- Machine learning-based diabetes prediction
+- Trained model for making predictions
+- Python web application
+- Jupyter Notebook for exploring the model
+- Dataset for model development
 
-• Predicts diabetes using patient health data
-• Implements Logistic Regression for classification
-• Includes data preprocessing and feature scaling
-• Evaluates model using multiple performance metrics
+## Project Structure
 
----
-
-## 🛠️ Technologies Used
-
-* Python
-* scikit-learn
-* NumPy
-* Pandas
-
----
-
-## 📊 Model Details
-
-* Algorithm: Logistic Regression
-* Problem Type: Binary Classification
-
-### 🔍 Performance Metrics
-
-* Accuracy: **77%**
-* Precision: **0.68**
-* Recall: **0.65**
-* F1-score: **0.67**
-
----
-
-## 🔄 Workflow
-
-1. Data Collection
-2. Data Preprocessing
-
-   * Handling missing values
-   * Feature scaling
-3. Model Training using Logistic Regression
-4. Model Evaluation using classification metrics
-
----
-
-## 📁 Project Structure
-
-```id="d7s2xq"
-diabetes-prediction/
-│
-├── diabetes_prediction.ipynb
-├── dataset.csv
+```text
+diabetes-prediction-system/
+├── app/
+│   └── app.py
+├── Diabetes_prediction_system.ipynb
+├── diabetes.csv
+├── model.diabetes.csv.pkl
+├── train_model.py
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
----
+Update this structure if your actual repository uses different filenames or folders.
 
-## ▶️ How to Run
+## Technologies
 
-1. Clone the repository
-2. Install dependencies
-3. Run the notebook using Jupyter
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Jupyter Notebook
 
----
+Add any other libraries that your application actually uses.
 
-## 🌍 Why This Project Matters
+## Installation
 
-Early detection of diabetes can help in better treatment and prevention of complications. This model demonstrates how machine learning can assist in healthcare decision-making.
+1. Download or clone this repository.
+2. Install the Python packages listed in `requirements.txt`.
+3. Check that the dataset and trained model are available at the file paths expected by the application.
+4. Follow the instructions in the source code to start the application.
 
----
+## Dataset
 
-## 📌 Future Improvements
+The project uses a diabetes dataset for model development and prediction. Check the dataset's source and license before redistributing it.
 
-• Use advanced models (Random Forest, XGBoost)
-• Improve accuracy with feature engineering
-• Deploy as a web application
+## Disclaimer
 
----
+This project is intended for educational and research purposes. Its predictions are not a medical diagnosis and should not replace professional medical advice.
 
-## 👨‍💻 Author
+## Author
 
-Developed by Abdus Soyim as part of a Machine Learning project.
+Add your name here.
